@@ -1,0 +1,17 @@
+{
+  "name": "twitter-search-api-test",
+  "version": "1.0.0",
+  "description": "A simple Twitter Search API Test using the Twit Twitter API Client.",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sidisinsane/twitter-search-api-test.git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}

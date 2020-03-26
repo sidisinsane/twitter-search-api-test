@@ -1,0 +1,6 @@
+*.DS_Store
+.idea
+.cache
+node_modules
+response.log
+index.js
