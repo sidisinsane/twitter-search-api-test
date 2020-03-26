@@ -12,6 +12,7 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "moment": "^2.24.0",
     "twit": "^2.2.11"
   }
 }
