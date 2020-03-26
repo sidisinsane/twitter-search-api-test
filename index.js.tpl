@@ -23,6 +23,7 @@ function parseTwitterDate(tdate) {
 
 let q = 'from:worldwidejs #javascript';
 let count = 3;
+let lang = 'en';
 
 const T = new Twit({
     consumer_key: 'YOUR_API_KEY',
@@ -35,7 +36,7 @@ const T = new Twit({
 (async () => {
     try {
         // search twitter for tweets matching query
-        T.get('search/tweets', { q: q, count: count })
+        T.get('search/tweets', { q: q, count: count, lang: lang })
             .catch(function (err) {
                 console.error('caught error:', err.stack)
             })
