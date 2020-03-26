@@ -36,7 +36,7 @@ const T = new Twit({
 (async () => {
     try {
         // search twitter for tweets matching query
-        T.get('search/tweets', { q: q, count: count, lang: lang })
+        T.get('search/tweets', { q: q, count: count, lang: lang, result_type: 'recent' })
             .catch(function (err) {
                 console.error('caught error:', err.stack)
             })
